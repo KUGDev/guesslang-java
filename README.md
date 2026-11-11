@@ -77,3 +77,9 @@ Reproduced from Keras `TextVectorization(standardize="lower_and_strip_punctuatio
 - only ASCII whitespace splits tokens (space, `\t`, `\n`, `\r`, `\v`, `\f`);
 - deep input: first 512 tokens, unknown token = 1, padding = 0, and the average includes padding positions;
 - wide input: counts of 1- and 2-grams multiplied by idf; unknown n-grams are counted at index 0.
+
+
+### Credits
+
+Many thanks to [Samreet Singh Johal](sjohal24@uwo.ca) and [Syed Naqvi](snaqvi89@uwo.ca) for providing some thoughts around the library in their repo: https://github.com/KUGDev/guesslang-onnx-cli.
+
